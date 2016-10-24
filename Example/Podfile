@@ -1,0 +1,7 @@
+use_frameworks!
+target 'Sense-UIButtons_Tests' do
+  pod 'Sense-UIButtons', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+end
