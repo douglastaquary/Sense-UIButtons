@@ -1,0 +1,36 @@
+PODS:
+  - Expecta (1.0.5)
+  - Sense-UIButtons (0.1.0)
+  - Sense-UIColors (0.1.0)
+  - Specta (1.0.5)
+  - UIView+BooleanAnimations (1.0.2)
+
+DEPENDENCIES:
+  - Expecta
+  - Sense-UIButtons (from `../`)
+  - Sense-UIColors (from `https://github.com/douglastaquary/Sense-UIColors.git`, branch `master`)
+  - Specta
+  - UIView+BooleanAnimations
+
+EXTERNAL SOURCES:
+  Sense-UIButtons:
+    :path: "../"
+  Sense-UIColors:
+    :branch: master
+    :git: https://github.com/douglastaquary/Sense-UIColors.git
+
+CHECKOUT OPTIONS:
+  Sense-UIColors:
+    :commit: 8890378b151bdf5ef6b7a6599a1876e893552769
+    :git: https://github.com/douglastaquary/Sense-UIColors.git
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Sense-UIButtons: 30e631c81513c9f3e5233f2939806fc316d2e263
+  Sense-UIColors: 6d0eec1bead5c0b52f5a176ddf0193f96b8b153f
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  UIView+BooleanAnimations: a760be9a066036e55f298b7b7350a6cb14cfcd97
+
+PODFILE CHECKSUM: 3e93de5fb2dbf499e15d012e271b1a6a08629df7
+
+COCOAPODS: 1.1.0.rc.3

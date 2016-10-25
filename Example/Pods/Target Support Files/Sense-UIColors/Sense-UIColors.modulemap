@@ -1,0 +1,6 @@
+framework module Sense_UIColors {
+  umbrella header "Sense-UIColors-umbrella.h"
+
+  export *
+  module * { export * }
+}

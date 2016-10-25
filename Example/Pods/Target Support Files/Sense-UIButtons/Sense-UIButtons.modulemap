@@ -1,0 +1,6 @@
+framework module Sense_UIButtons {
+  umbrella header "Sense-UIButtons-umbrella.h"
+
+  export *
+  module * { export * }
+}
